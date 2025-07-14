@@ -6,11 +6,32 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>Letter_C_black_35044.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Letter_C_black_35044.ico" />
+    <None Remove="Data\ChistesAnimales.txt" />
+    <None Remove="Data\ChistesCortos.txt" />
+    <None Remove="Data\ChistesMalos.txt" />
+    <None Remove="Data\ChistesPapa.txt" />
+    <None Remove="Data\ChistesTecnologia.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\ChistesAnimales.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ChistesCortos.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ChistesMalos.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ChistesPapa.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ChistesTecnologia.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

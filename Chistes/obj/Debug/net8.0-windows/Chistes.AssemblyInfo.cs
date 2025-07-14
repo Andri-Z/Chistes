@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chistes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b0657041aff7d5bf75b5ba6759987422f53af48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ce2b237babeaf2de629cd32170a2cbd6e60b071")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chistes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chistes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
